@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha284-9aIt2nRpC12Uk9gS9baDl411NQApFmC22EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <script src="https://kit.fontawesome.com/051075102b.js" crossorigin="anonymous"></script>
+    <title>Rolam</title>
+    <link rel="favicon" href="img/favicon.ico" />
+
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="uj_old_bt_el.html">Vissza a főoldalra</a>
+        </li>
+    </ul>
+    <div class="col-" style="background-color:lightcyan; margin-top: 20px; margin-left: 20px; 
+    margin-right: 50px; margin-bottom: 30px; text-align: left;">
+        <h2 style="text-align: center; margin-bottom: 40px; color: rgb(106, 90, 205);">
+            Ez én vagyok<br>
+            <img id="en" width="130" src="img/IMG_20181231_210519.jpg" alt="Itt van egy képem"
+                style="vertical-align: text-bottom; border:10px solid rgb(144, 232, 235)">
+        </h2>
+        <p class="most" style="color: slateblue;margin-bottom: 2px;"> Most <em> tanulom</em> <strong>
+                megcsinálni</strong> az oldalt<br>
+            ...most vagy soha<br>
+            ...azért mert:
+        </p>
+
+        <div class="lista" id="lista" style="color: teal; margin-top: 1px;">
+            <ul>
+                <li>
+                    ezzel tanulok a vizsgára
+                </li>
+                <li>
+                    ezzel gyakorolom amit tudok
+                </li>
+                <li>
+                    ezzel élénkítem a szürkeállományomat
+                </li>
+            </ul>
+        </div>
+
+
+        <!--<div class="tábla" id="tábla">
+        <table class="table" id="elso">
+            <thead>
+                <th>
+                    Érdelődési kör
+                </th>
+                <th>
+                    Évek
+                </th>
+                <th>
+                    Lényeg
+                </th>
+                <th>
+                    Értékelés
+                </th>
+            </thead>
+        </table>
+    </div>-->
+
+        <table class="table table-sm table-hover table-success : #dff0d8">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">A pálya</th>
+                    <th scope="col">Évek</th>
+                    <th scope="col">A lényeg</th>
+                    <th scope="col">Értékeld !</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Család</td>
+                    <td>36</td>
+                    <td>csupa jó</td>
+                    <td>
+                        <div class="btn-group">
+                            <button onclick="jo()" type="button" name="jo" class="btn btn-info"><i
+                                    class="fas fa-thumbs-up"></i></button>
+                            <button onclick="rossz()" type="button" name="rossz" class="btn btn-secondary"><i
+                                    class="fas fa-thumbs-down"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Labor</td>
+                    <td>33</td>
+                    <td>szakmai csúcs</td>
+                    <td>
+                        <div class="btn-group">
+                            <button onclick="jo()" type="button" name="jo" class="btn btn-info"> <i
+                                    class="fas fa-thumbs-up"></i> </button>
+                            <button onclick="rossz()" type="button" name="rossz" class="btn btn-secondary"><i
+                                    class="fas fa-thumbs-down"></i> </button>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Szőlészet-borászat</td>
+                    <td>11</td>
+                    <td>nagy kihívás</td>
+                    <td>
+                        <div class="btn-group">
+                            <button onclick="jo()" type="button" name="jo" class="btn btn-info"> <i
+                                    class="fas fa-thumbs-up "></i> </button>
+                            <button onclick="rossz()" type="button" name="rossz" class="btn btn-secondary"><i
+                                    class="fas fa-thumbs-down"></i> </button>
+                        </div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <script src="js/main.js"></script>
+
+    </div>
+
+</body>
+
+</html>

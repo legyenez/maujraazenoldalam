@@ -1,0 +1,90 @@
+@font-face{
+    font-family:"Oswald-Regular";
+    src: url("E:\APA\IT\UJRATERVEZES\ism\css\Oswald\static\Oswald-Regular.ttf");
+    font-weight: 500;
+    }
+@font-face{
+    font-family: "Oswald-light";
+    src: url("E:\APA\IT\UJRATERVEZES\ism\css\Oswald\static\Oswald-Light.ttf");
+    font-weight: 300;
+    }
+body{
+    background-color: lightblue;
+}
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+color: seagreen;
+text-transform: uppercase;
+}
+h2 {
+    text-align: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: slateblue;
+}
+h3 {
+    color: maroon;
+    text-align: left;
+    text-align: left;
+}
+p {
+    text-align: left;
+    color: blue;
+    font-family: "Oswald-light";
+}
+.most {
+    color: yellowgreen
+}
+.azert {
+    color: red
+}
+.kezdet {
+    background-color: lightseagreen;
+}
+
+li {
+    text-align: left;
+    color:green;    
+}
+#en {
+    display: block;
+}
+.input-div {
+    padding: 20px;
+    border: solid 2px #0f0f0f0f;
+    display: inline-block;
+} 
+.email-div {
+    margin-bottom:2px ;
+}
+.button-div{
+    margin-top: 5px;
+    color: limegreen;
+}
+.lista{
+    background-color: lightgreen;
+    padding-right: 20px;
+    display: inline-block;
+}
+.table{
+    margin-top: 30px ;
+    background-color: rgb(112, 184, 218);
+    display: inline-block;
+}
+.ki {
+    background-color:lightblue
+    
+}
+.sex {
+    text-align:left;
+}
+.kaja {
+    text-align: right;
+}
+.kopog {
+    text-align: right;
+    display: inline-block;
+}
+.minoseg {
+    text-align: left;
+}
